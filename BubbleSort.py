@@ -6,7 +6,7 @@ def bubbleSort(list):
                 list[i] = list[j]
                 list[j] = temp;
     for k in range(len(list)):
-        print(list[k])
+        print(list[k], end=" ")
 
 list = [3,4,2,67,1,90,54,6,78,32]
 bubbleSort(list)
